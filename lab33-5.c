@@ -15,10 +15,11 @@ int main() {
     // the exclusive or combination of each character in the array. As in starting
     // at 0, keep a running combination of each character in the array using the
     // bitwise exclusive or (xor) operator. Return the final checksum as a uint8_t type.
+    //
+    // Create some character arrays and use the print_bits() function to test
+    // your simple_checksum() function.
+    char test[] = "Hello";
+    printf("%d\n", simple_checksum(test));
 
-    // Call your function a few times with different character array inputs to test
-    // that it works. Note that for many reasons, including the commutative property of
-    // the exclusive or operator, this is not a valid data integrity check.
-    
     return 0;
 }

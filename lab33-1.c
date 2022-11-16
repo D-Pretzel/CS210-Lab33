@@ -15,9 +15,10 @@ int main() {
     // bit number to check. Bits are numbered from 0 to 31, where bit 0 is
     // the least significant bit. The function should return an int value
     // of 1 if the chosen bit is a 1, and 0 if it is a 0.
-    
+
     // Create some integer variables and use the print_bits() function to
     // test your check_bit() function.
+    printf("%d\n", check_bit(0, 0));
 
     return 0;
 }

@@ -17,9 +17,10 @@ int main() {
     //
     // Create some integer variables and use the print_bits() function to test
     // your bit_parity() function.
-    //
+    printf("%d\n", bit_parity(2));
+
     // Extra: can you think of a way to tell if an integer is even or odd, using
     // a bit operation rather than using the mod operator?
-    
+
     return 0;
 }
